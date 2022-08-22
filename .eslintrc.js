@@ -45,6 +45,8 @@ module.exports = {
       "named": 'always',
       "asyncArrow": 'always'
     }],
+    "space-infix-ops": "error",
+    "key-spacing": ["error", { "beforeColon": false }],
   },
   parserOptions: {
     "parser": "babel-eslint",
