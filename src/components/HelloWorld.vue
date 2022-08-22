@@ -15,7 +15,7 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg:  {
+    msg: {
       type: String,
     }
   },
